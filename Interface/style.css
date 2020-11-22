@@ -1,0 +1,145 @@
+body{
+    /* background-color:rgb(19, 19, 19); */
+    background-image: url(wp6422920.jpg);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h1,h2,h3,h4,p,span,li{
+    margin: 0;
+    padding: 0;
+}
+header{
+    color: white;
+    height: 60px;
+    background-color:  #ff005e;;
+}
+header>nav{
+    margin: 0 auto;
+    width: 1020px;
+}
+header>nav>p{
+    margin-left: 20px;
+    float: left;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+header>nav>ul{
+    text-transform: uppercase;
+    font-weight: bold;
+
+    float: right;
+}
+header>nav>ul>li{
+    list-style: none;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-left: 40px;
+    float: left;
+}
+header>p{
+    padding-top: 10px;
+    color: white;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-align: center;
+}
+.content_wrapper{
+    overflow: hidden;
+    margin: 0 auto;
+    width: 1240px;
+    height: 806px;
+    text-align: center;
+    background-color: rgb(27, 27, 27);
+    /* border: 2px solid #ff005e; 
+    border-top-style: none; */
+}
+h1{
+    padding-top: 100px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 70px;
+}
+.login_block{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    color: white;
+    text-align: center;
+    background-color: rgb(44, 44, 44);
+    /* border: 5px solid #ff005e;       */
+    border-radius:10px ;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 50px;
+    width: 360px;
+    height: 250px;
+}
+.login_block input{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border-style: none;
+    color: white;
+    background-color: rgb(53, 53, 53);
+    text-align: center;
+    width: 100%;
+    font-size: 34px;
+    margin-top: 20px;
+}
+.login_block form{
+  
+    width: 100%;
+}
+.login_block button{
+ 
+    margin: 0;
+    padding: 0;
+    border-style: none;
+    /* border-radius: 5px; */
+    color: #fff;
+    float: left;
+    margin-top: 20px;
+    height: 50px;
+    font-size: 34px;
+    width: 175px;
+    background-color: #ff005e;
+}
+#sing_in{
+    float: left;
+}
+#sing_up{
+    float: right;
+}
+footer{
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    background-color: black;
+    height: 130px;
+}
+.footer_content{
+    padding: 40px;
+}
+.li_active{
+    font-size: 22px;
+}
+
+@media(max-width:1240px){
+    .content_wrapper{
+        width: 100%;
+    }
+}
+@media(max-width:1020px){
+    header>nav>ul>li{
+        display: none;
+    }
+    header>nav>p{text-align: center;}
+}
+button:hover{
+    background-color:#4678ff ;
+    transform: scale(0.98);
+    -webkit-transform: scale(0.98);
+    -ms-ransform: scale(0.98);
+
+}
